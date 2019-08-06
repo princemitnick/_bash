@@ -1,2 +1,7 @@
 #find keywords within bash
 compgen -k 
+
+#Bash startup
+.bash_profile is read when Bash is invoked as a login shell
+
+.bashrc is executed when a new shell is started
