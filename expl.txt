@@ -1,7 +1,26 @@
 #find keywords within bash
 compgen -k 
 
+==========================================================
+
 #Bash startup
 .bash_profile is read when Bash is invoked as a login shell
 
 .bashrc is executed when a new shell is started
+
+==============================================================
+
+#When executing script
+
+bash ./- = run a new bash process
+. / source = run script in current shell / export variables in current shell
+
+===============================================================
+#echo
+
+-e : enable backslash escaped characters like \n and \t
+
+-E : disable backslash escaped characters in case they were enabled by default
+
+-n : don't print a trailing newline
+
